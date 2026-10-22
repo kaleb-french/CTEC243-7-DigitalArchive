@@ -6,3 +6,6 @@ The foundation for our Binary Search Tree and it's node classes were created, an
 
 Phase 2-
 I rough drafted a prototype without realising the Math.max but was overly bloated then recreated a smaller version with Math.max. Created a base case that returns -1 when it hits null, assigns a heightL and calls recAdd for node.getLeft does the same for heightR and node.getRight and at the bottom returns 1 + Math.max comparing left and right. This will return the deepest path via a int that will represent the height.
+
+Phase 3-
+I created methods to taverese and print in either a inorder or preorder fashion. By chosing to go left before right a each node you naturally get the data in an ordered fashion, due to the smaller data always being store left and larger being stored on the right, by traversing in this way we can print at each step and get the data output in an ordered way.
