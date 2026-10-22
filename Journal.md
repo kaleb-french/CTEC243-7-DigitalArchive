@@ -9,3 +9,6 @@ I rough drafted a prototype without realising the Math.max but was overly bloate
 
 Phase 3-
 I created methods to taverese and print in either a inorder or preorder fashion. By chosing to go left before right a each node you naturally get the data in an ordered fashion, due to the smaller data always being store left and larger being stored on the right, by traversing in this way we can print at each step and get the data output in an ordered way.
+
+Phase 4-
+Tested different edge cases such as empty tree and only root, Running the early smaples vs the presorted data the inorder and preorder are the same when the data is presorted.
